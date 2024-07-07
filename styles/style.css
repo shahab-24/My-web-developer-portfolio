@@ -140,9 +140,46 @@ text-Align: center;
 
 .what_is_do{
   text-align: center;
-  margin: 50px auto;
+  margin: 0 auto;
+  width: 800px;
+}
+.skill_details{
+  color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align:justify;
+padding: 20px;
+margin: 5px;
+}
+
+
+.skill_title{
+  color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
 }
 
 .skill_items{
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.what_i_do_title{
+  margin-top: 50px;
+  color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
 }
