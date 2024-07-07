@@ -101,7 +101,7 @@ ul {
 
   border-radius: 10px;
 
-background: rgb(255, 248, 243);
+  background: rgb(255, 248, 243);
 
   width: 600px;
   margin: 0 auto;
@@ -109,77 +109,167 @@ background: rgb(255, 248, 243);
   text-align: center;
 }
 
-.about_details{
+.about_details {
   box-sizing: border-box;
   margin: 50px 20px;
-border: 1px solid rgb(0, 0, 0);
-background: rgb(255, 255, 255);
-padding: 20px 10px;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  padding: 20px 10px;
 }
 
-.head_about{
+.head_about {
   margin-bottom: 20px;
-  
 }
 
-.about_item{
+.about_item {
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  Font: Open Sans;
-font-weight: 400;
-Font-size: 18px;
+  font: Open Sans;
+  font-weight: 400;
+  font-size: 18px;
 
-Letter-spacing: 0%;
-text-Align: center;
+  letter-spacing: 0%;
+  text-align: center;
 }
-
 
 /* what is do */
 
-.what_is_do{
+.what_is_do {
   text-align: center;
   margin: 0 auto;
   width: 800px;
 }
-.skill_details{
+.skill_details {
   color: rgb(117, 117, 117);
-font-family: Open Sans;
-font-size: 15px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0%;
-text-align:justify;
-padding: 20px;
-margin: 5px;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: justify;
+  padding: 20px;
+  margin: 5px;
 }
 
-
-.skill_title{
+.skill_title {
   color: rgb(24, 24, 24);
-font-family: Open Sans;
-font-size: 20px;
-font-weight: 700;
-line-height: 27px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
-.skill_items{
+.skill_items {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+  gap:20px;
+  box-shadow: 20px 20px 20px #888888;
 }
 
-.what_i_do_title{
+.skill_card {
+  border: 2px solid black;
+  
+  
+}
+
+.what_i_do_title {
   margin-top: 50px;
   color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* resume styles */
+.resume_section {
+  width:800px;
+
+
+  text-align: center;
+  margin: 50px auto;
+  
+}
+
+.resume_container {
+  display: flex;
+  gap: 20px;
+  
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.resume_description{
+  color: rgb(117, 117, 117);
 font-family: Open Sans;
-font-size: 35px;
-font-weight: 700;
-line-height: 48px;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
 letter-spacing: 0%;
-text-align: center;
+text-align: left;
+}
+
+.resume_title{
+  color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.resume_subtitle{
+  color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.resume_part{
+  color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0%;
+text-align: left;
+width: 50%;
+padding: 20px;
+}
+
+.footer_container{
+  background: rgb(255, 248, 243);
+  display: flex;
+  gap: 20px
+}
+
+
+.lets_connect{
+  padding: 50px;
+  padding-right: 20px;
+  width: 50%;
+}
+
+.message{
+  padding: 50px 100px;
+  width: 50%;
+}
+
+.text_area{
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
